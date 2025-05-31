@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta charset="UTF-8">
+  <title>عالم القطط الظريفة 🐾</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background-image: url('download (1).jpg'); /* خلفية القطط */
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      color: #fff;
+      padding: 5px;
+      text-align: center;
+    }
+
+    h1 {
+      color: #ffeb3b;
+      background-color: rgba(0, 0, 0, 0.5);
+      padding: 15px;
+      border-radius: 10px;
+    }
+
+    p {
+      font-size: 18px;
+      background-color: rgba(0, 0, 0, 0.4);
+      padding: 10px;
+      border-radius: 8px;
+      width: 70%;
+      margin: auto;
+    }
+
+   ul {
+  list-style-type: disc;
+  text-align: right;
+  width: 60%;
+  margin: 20px auto;
+  background-color: rgba(255, 255, 255, 0.5); /* زيدت الشفافية */
+  padding: 15px;
+  border-radius: 10px;
+  color: #222; /* نص داكن وواضح */
+  font-size: 18px;
+  line-height: 1.8;
+  font-weight: bold;
+}
+
+ul li::marker {
+  color: #ff9800; /* لون النقاط واضح */
+}
+
+
+    table {
+      width: 80%;
+      border-collapse: collapse;
+      margin: 20px auto;
+      background-color: rgba(255, 255, 255, 0.3);
+      color: #000;
+    }
+
+    th, td {
+      border: 1px solid #444;
+      padding: 10px;
+      text-align: center;
+    }
+
+    th {
+      background-color: #ffcccb;
+    }
+
+    img {
+      border-radius: 10px;
+      transition: transform 0.3s ease;
+    }
+
+    img:hover {
+      transform: scale(1.1);
+    }
+
+    button {
+      margin-top: 20px;
+      padding: 12px 20px;
+      font-size: 16px;
+      background-color: #ff9800;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    button:hover {
+      background-color: #e65100;
+    }
+  </style>
+</head>
+<body>
+
+  <h1> عالم القطط الظريفة </h1>
+<p>مرحبا بك! في هذه الصفحة ستتعرف على أشهر أنواع القطط ومعلومات ممتعة عنها! </p>
+<h2>معلومات ممتعة  عن القطط</h2>
+<p>هل تعلم أن القطط لديها قدرة على السباحة بالرغم من عدم ممارستها الدائمة؟ </p>
+
+
+ <ul>
+  <li>القطط تنام أكثر من 14 ساعة يومياً </li>
+  <li>تمتلك سمعًا قويًا يلتقط أصواتًا لا يسمعها الإنسان </li>
+  <li>تستخدم شواربها لتحديد الاتجاهات والمسافات بدقة </li>
+  <li>تستطيع القفز حتى خمسة أضعاف طول جسمها!</li>
+  <li>القطط تستخدم التمويه للحماية من الأعداء </li>
+</ul>
+<p>القطط حيوانات ذكية وقادرة على التكيف مع بيئات متعددة.</p>
+<p>كما أنها تعتمد على التواصل غير اللفظي باستخدام الشوارب والأصوات الخاصة.</p>
+
+
+
+  <table>
+    <tr>
+      <th>الصورة</th>
+      <th>النوع</th>
+      <th>البلد الأصلي</th>
+      <th>الطبع</th>
+    </tr>
+    <tr>
+      <td><img src="668.webp" alt="قط شيرازي" width="100"></td>
+      <td>الشيرازي</td>
+      <td>إيران</td>
+      <td>هادئ ولطيف</td>
+    </tr>
+    <tr>
+      <td><img src="images (1).jpg" alt="قط بنغالي" width="100"></td>
+      <td>البنغالي</td>
+      <td>الولايات المتحدة</td>
+      <td>نشط ومرح</td>
+    </tr>
+    <tr>
+      <td><img src="download.jpg" alt="قط سيامي" width="100"></td>
+      <td>السيامي</td>
+      <td>تايلاند</td>
+      <td>اجتماعي وفضولي</td>
+    </tr>
+  </table>
+<h2>📸 معرض صور القطط</h2>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 15px; width: 90%; margin: auto; background-color: rgba(255, 255, 255, 0.3); padding: 15px; border-radius: 10px;">
+  <img src="download (2).jpg" alt="قط 1" style="width: 100%;">
+  <img src="download (3).jpg" alt="قط 2" style="width: 100%;">
+  <img src="download (4).jpg" alt="قط 3" style="width: 100%;">
+  <img src="images.jpg" alt="قط 4" style="width: 100%;">
+</div>
+
+  <button onclick="showCatFact()">اعطني معلومة عن القطط 🐾</button>
+
+  <script>
+   function showCatFact() {
+  const facts = [
+    "القطط تمضي حوالي 70% من حياتها نائمة!",
+    "تستطيع القطط إصدار أكثر من 100 صوت مختلف.",
+    "القلب لدى القطط ينبض بمعدل أسرع من قلب الإنسان.",
+    "القطط تحب الأماكن المرتفعة وتشعر بالأمان فيها.",
+    "تلعق القطط فراءها لتنظيم درجة حرارتها."
+  ];
+  const randomFact = facts[Math.floor(Math.random() * facts.length)];
+  alert(randomFact);
+}
+
+  </script>
+
+<hr>
+<div style="background-color: rgba(0, 0, 0, 0.6); padding: 15px; border-radius: 10px; width: 90%; margin: auto; margin-top: 30px; color: #fff;">
+  <h3>📬 معلومات التواصل</h3>
+  <div style="display: flex; justify-content: space-between; flex-wrap: nowrap; gap: 20px; text-align: center;">
+    <p style="margin: 0;">📍 العنوان: العقبة، المنطقة الثامنة</p>
+    <p style="margin: 0;">📞 الهاتف: 0780123154</p>
+    <p style="margin: 0;">📧 البريد الإلكتروني: saleemalhitine@gmail.com</p>
+  </div>
+<button onclick="scrollToTop()" style="position: fixed; bottom: 20px; right: 20px;">🔝 للأعلى</button>
+
+<script>
+  function scrollToTop() {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
+</script>
+
+
+</body>
+</html>
