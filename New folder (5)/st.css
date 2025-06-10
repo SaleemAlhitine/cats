@@ -1,0 +1,89 @@
+
+    body {
+      font-family: 'Arial', sans-serif;
+      background-image: url('download (1).jpg'); /* خلفيه للصفحه*/
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      color: #fff;
+      padding: 5px;
+      text-align: center;
+    }
+
+    h1 {
+      color: #ffeb3b;
+      background-color: rgba(0, 0, 0, 0.5);
+      padding: 15px;
+      border-radius: 10px;
+    }
+
+    p {
+      font-size: 18px;
+      background-color: rgba(0, 0, 0, 0.4);
+      padding: 10px;
+      border-radius: 8px;
+      width: 70%;
+      margin: auto;
+    }
+
+   ul {
+  list-style-type: disc;
+  text-align: right;
+  width: 60%;
+  margin: 20px auto;
+  background-color: rgba(255, 255, 255, 0.5); /* بعمل زي الشفافيه*/
+  padding: 15px;
+  border-radius: 10px;
+  color: #222; /* بخلي النص اغمق*/
+  font-size: 18px;
+  line-height: 1.8;
+  font-weight: bold;
+}
+
+ul li::marker {
+  color: #ff9800; /* للنقاط يلي عند الفقرات*/
+}
+
+
+    table {
+      width: 80%;
+      border-collapse: collapse;
+      margin: 20px auto;
+      background-color: rgba(255, 255, 255, 0.3);
+      color: #000;
+    }
+
+    th, td {
+      border: 1px solid #444;
+      padding: 10px;
+      text-align: center;
+    }
+
+    th {
+      background-color: #ffcccb;
+    }
+
+    img {
+      border-radius: 10px;
+      transition: transform 0.3s ease;
+    }
+
+    img:hover {
+      transform: scale(1.1);
+    }
+
+    button {
+      margin-top: 20px;
+      padding: 12px 20px;
+      font-size: 16px;
+      background-color: #ff9800;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    button:hover {
+      background-color: #e65100;
+    }
